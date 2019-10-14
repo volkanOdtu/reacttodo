@@ -15,8 +15,7 @@ app.use(cors());
 //app.use(bodyparser.json());
 app.use(express.json());//this is going to allow to parse JSON
 
-const uri = process.env.ATLAS_URI || "mongodb://admin:gunfer510@ds235078.mlab.com:35078/heroku_btn6zz9h";
-
+const uri = process.env.ATLAS_URI || "mongodb://admin:gunfer510@ds135068.mlab.com:35068/heroku_twsnwzk3";
 
 let todo = require('./models/todo.model');
 
